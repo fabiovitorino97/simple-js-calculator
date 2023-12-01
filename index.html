@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    
+</head>
+
+<body>
+    <div id="calculator" class="calculator">
+        <div id="display">0</div>
+        <!-- Botões-->
+        <!-- Coluna direita -->
+        <div class="button function" onclick="calculatePercentage()">%</div>
+        <div class="button function" onclick="clearEntry()">CE</div>
+        <div class="button function" onclick="clearAll()">C</div>
+        <div class="button function" onclick="backspace()">←</div>
+        <div class="button function" onclick="calculateInverse()">1/x</div>
+        <div class="button function" onclick="calculateSquare()">x²</div>
+        <div class="button function" onclick="squareRoot()">√</div>
+        <div class="button operator" onclick="setOperator('/')">/</div>
+        <div class="button number" onclick="appendNumber(7)">7</div>
+        <div class="button number" onclick="appendNumber(8)">8</div>
+        <div class="button number" onclick="appendNumber(9)">9</div>
+        <div class="button operator" onclick="setOperator('*')">*</div>
+        <div class="button number" onclick="appendNumber(4)">4</div>
+        <div class="button number" onclick="appendNumber(5)">5</div>
+        <div class="button number" onclick="appendNumber(6)">6</div>
+        <div class="button operator" onclick="setOperator('-')">-</div>
+        <div class="button number" onclick="appendNumber(1)">1</div>
+        <div class="button number" onclick="appendNumber(2)">2</div>
+        <div class="button number" onclick="appendNumber(3)">3</div>
+        <div class="button operator" onclick="setOperator('+')">+</div>
+        <div class="button sign" onclick="toggleSign()">+/-</div>
+        <div class="button number" onclick="appendNumber(0)">0</div>
+        <div class="button decimal" onclick="addDecimal()">.</div>
+        <div class="button equals" onclick="calculate()">=</div>
+
+    </div>
+
+    <script src="./js/calculator.js"></script>
+
+
+
+</body>
+
+</html>

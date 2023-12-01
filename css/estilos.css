@@ -1,0 +1,50 @@
+/* Estilo básico para os botões e contêiner da calculadora */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.button {
+    grid-column: span 1;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#display {
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Cores personalizadas */
+.button.operator {
+    background-color: #444;
+    color: #fff;
+}
+
+.button.function {
+    background-color: #add8e6; /* Cor azul clara */
+    color: #333;
+}
+
+.button.number, .button.sign, .button.decimal {
+    background-color: #d3d3d3; /* Cor cinza claro para números, +/- e vírgula */
+    color: #333;
+}
+
+.button.equals {
+    background-color: #ffa500; /* Cor laranja para o botão de igual */
+    color: #fff;
+}
