@@ -1,6 +1,9 @@
 # Calculadora Simples em JavaScript
 Este projeto consiste em uma calculadora simples desenvolvida em JavaScript, HTML e CSS. A calculadora permite realizar operações básicas, como adição, subtração, multiplicação, divisão, entre outras.
 
+## Dê uma olhada
+LINK: https://fabiovitorino97.github.io/simple-js-calculator/
+
 ## Funcionalidades Implementadas
 ### Operações Básicas
 As operações básicas estão localizadas na coluna do canto direito da calculadora. Elas incluem:
